@@ -1,0 +1,52 @@
+
+.draftEditor-button-group{
+
+  padding: 8px 10px 0;
+  overflow: hidden;
+
+  &.group-right{
+    text-align: right;
+  }
+
+  &.group-center{
+    text-align: center;
+  }
+
+  .draftEditor-button{
+    margin-bottom: 10px;
+  }
+
+  .draftEditor-button + .draftEditor-button{
+    margin-left: 10px;
+  }
+
+}
+
+.draftEditor-button{
+
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.5;
+  border-radius: 3px;
+
+  &.default-button{
+    background-color: #fff;
+    border-color: #ccc;
+  }
+
+  &.success-button{
+    color: #fff;
+    background-color: #009a61;
+    border-color: #008151;
+  }
+
+}
+

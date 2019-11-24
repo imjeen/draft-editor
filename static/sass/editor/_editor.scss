@@ -1,0 +1,47 @@
+
+.draftEditor-wrapper{
+  //position: relative;
+  max-width: 790px;
+  margin: auto;
+  border: 1px solid #c9d8db;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.15);
+  font-family: Helvetica, Arial, sans-serif;
+
+  /*display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;*/
+
+
+  &, *, *:before, *:after{
+    box-sizing: border-box;
+  }
+
+}
+
+
+.draftEditor-editor{
+  background-color: #fff;
+  padding: 20px 16px 40px;
+  border-top: 1px solid #ddd;
+  cursor: text;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.6;
+  font-family: Helvetica, Arial, sans-serif;
+
+  .public-DraftEditor-content,
+  .public-DraftEditorPlaceholder-root{
+    margin: 0 -15px 0;
+    padding: 15px;
+  }
+
+  &.hidePlaceholder .public-DraftEditorPlaceholder-root{
+    display: none;
+  }
+
+  .public-DraftEditor-content{
+    min-height: 100px;
+  }
+
+}

@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+/*
+*  editor使用的样式
+*/
+@import "variable";
+
+@import "editor/toolbar";        // editor的toolbar
+@import "editor/editor";         // editor的容器
+@import "editor/dropdown";       // toolbar里的dropdown
+@import "editor/button";         // button
+@import "custom/block";          // 自定义block样式
+@import "editor/blockReset";     // 自定义block样式 (editor特有的)

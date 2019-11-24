@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Editor</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- result style -->
+    <% for(var i=0; i < htmlWebpackPlugin.files.css.length; ++i){ %>
+    <link rel="stylesheet" href="<%= htmlWebpackPlugin.files.css[i] %>">
+    <% } %>
+</head>
+<body>
+
+<main id="app"></main>
+
+<!-- result script -->
+<% for(var i=0; i < htmlWebpackPlugin.files.js.length; ++i){ %>
+<script src="<%= htmlWebpackPlugin.files.js[i] %>"></script>
+<% } %>
+</body>
+</html>
